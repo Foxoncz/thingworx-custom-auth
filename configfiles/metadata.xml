@@ -1,0 +1,20 @@
+<Entities>
+	<ExtensionPackages>
+		<ExtensionPackage name="HXP-Authenticator-Extension"
+						  description="Authenticator"
+						  vendor="HXperience"
+						  packageVersion="1.0" 
+						  minimumThingWorxVersion="6.5.0" >
+			<JarResources>
+				<FileResource type="JAR" file="hxp-auth-extension.jar" description="" />
+			</JarResources>
+		</ExtensionPackage>
+	</ExtensionPackages>
+	<Authenticators>
+		<Authenticator name="CustomFormAuthenticator" 
+			className="com.hxperience.thingworx.authenticators.CustomFormAuthenticator"
+			description=""
+			aspect.isEditableExtensionObject="true"> 
+		</Authenticator> 
+	</Authenticators>
+</Entities>
